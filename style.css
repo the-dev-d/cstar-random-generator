@@ -53,7 +53,7 @@ body {
     aspect-ratio: 1;
     background-color: white;
     border-radius: 100%;
-    background-image: url('/assets/rcss.jpeg');
+    background-image: url('assets/rcss.jpeg');
     box-shadow:  20px 20px 60px #8888883f,
     -20px -20px 60px #64646406;
     border: 1px solid rgba(211, 211, 211, 0.415);
@@ -65,22 +65,22 @@ body {
     }
     24% {
         rotate: y 90deg;
-        background-image: url('/assets/rcss.jpeg');
+        background-image: url('assets/rcss.jpeg');
     }
     25% {
         rotate: y 90deg;
-        background-image: url('/assets/cstar.jpeg');
+        background-image: url('assets/cstar.jpeg');
     }
     50% {
         rotate: y 180deg;
     }
     74% {
         rotate: y 270deg;
-        background-image: url('/assets/cstar.jpeg');
+        background-image: url('assets/cstar.jpeg');
     }
     75% {
         rotate: y 270deg;
-        background-image: url('/assets/rcss.jpeg');
+        background-image: url('assets/rcss.jpeg');
     }
     100% {
         rotate: y 360deg;
