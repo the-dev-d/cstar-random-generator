@@ -9,13 +9,25 @@
 </head>
 <body>
     <section class="main">
-        <div id="coin" class="coin"></div>
+        <div id="coin" class="coin">
+            <b id="random-number"></b>
+        </div>
     </section>
     <section id="settings" class="settings" >
         <div class="wrapper">
             <button id="toggle" class="toggle">
                 <i id="direction-icon" class="fa-solid fa-chevron-up"></i>
             </button>
+        </div>
+        <div>
+            <form id="control">
+                <input value="1" id="start" type="number" name="start" placeholder="Start">
+                <input value="11" id="end" type="number" name="end" placeholder="End">
+                <div style="display: flex; width: 100%; gap: 0.4rem; "><input id="exclusion-input" type="number" name="exclusion" placeholder="Exclusion"><button id="exclusion-add" type="button">+</button></div>
+            </form>
+            <section id="badge-area" class="badge-area">
+
+            </section>
         </div>
     </section>
 </body>
