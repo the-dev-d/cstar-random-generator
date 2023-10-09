@@ -155,8 +155,6 @@ input {
     0%  { rotate : y 0deg; }
     10% { rotate : y 360deg; }
     20% { rotate : y 720deg; }
-    40% { rotate : y 900deg; }
-    70% { rotate : y 1080deg; }
-    90% { rotate : y 1260deg; }
-    100% { rotate: y 1440deg; }
+    50% { rotate : y 1080deg; }
+    100% { rotate : y 1440deg; }
 }

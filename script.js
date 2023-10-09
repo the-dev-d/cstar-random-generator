@@ -62,7 +62,7 @@ coin.addEventListener('click', () => {
             spinning = false;
         }, 4000)
 
-    }, 3000)
+    }, 2000)
 })
 
 function getRandomNumberWithExclusions(start, end, exclusions) {
