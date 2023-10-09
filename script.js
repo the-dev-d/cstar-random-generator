@@ -54,9 +54,8 @@ coin.addEventListener('click', () => {
         const start = startLimit.valueAsNumber;
         const end = endLimit.valueAsNumber;
 
+        
         const r = getRandomNumberWithExclusions(start, end, exclusionList);
-        console.log(r);
-
         randomNumber.innerText = r;
         randomNumber.style.opacity = "1";
         setTimeout(() => {
@@ -80,6 +79,7 @@ function getRandomNumberWithExclusions(start, end, exclusions) {
     }
   
     const randomIndex = Math.floor(Math.random() * validNumbers.length);
+  
     return validNumbers[randomIndex];
   }
 

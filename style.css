@@ -13,7 +13,9 @@ body {
     height: 60%;
     background-color: white;
     translate: 0% 98%;
+    box-shadow: -1px -1px 8px lightgray;
     transition: translate 500ms ease-in-out;
+    z-index: 10;
 }
 .settings-open {
     translate: 0% 10%;
@@ -27,22 +29,31 @@ form {
 }
 input {
     padding: 0.7rem;
-    border-radius: 5px;    
+    border-radius: 5px;  
+    outline-color: #afd3a8;  
 }
 .badge-area {
     padding: 1rem;
     display: flex;
-    border: 1px solid red;
+    background-color: rgba(176, 176, 176, 0.19); 
     margin: 1rem;
     border-radius: 5px;
 }
+#exclusion-add {
+    padding : 0rem 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    background: linear-gradient(20deg, green, emerald);
+}
 .badge-area span {
+    background: white;
+    box-shadow: 0px 0px 3px gray;
     padding: 0.3rem 0.5rem;
     display: flex;
     width: fit-content;
     gap: 0.7rem;
     margin: 0rem 0.5rem;
-    border: 1px solid gray;
     border-radius: 20px;
 }
 .badge-area span b {
@@ -59,6 +70,7 @@ input {
 }
 .toggle {
     position: absolute;
+    box-shadow: 0px -1px 0px lightgray;
     left: 50%;
     top: 0%;
     translate: 0% -50%;
@@ -68,6 +80,7 @@ input {
     border: none;
     width: 3rem;
     aspect-ratio: 1 / 1;
+    z-index: 2;
 }
 .toggle i {
     margin: -0.7rem 0rem;
